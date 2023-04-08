@@ -1,29 +1,157 @@
+sw_greetings:
+  - Habari
+  - Sasa
+  - Hujambo
+  - Mambo
+
 greetings:
   - Hi
   - Hello
-  - Howdy
   - Hey
   - Good morning
-  - Good evening
   - Good afternoon
-  - Good day
-  - Good night
+  - What's up?
+  - Howdy
+
+sw_goodbye:
+  - Asante
+  - Kwaheri
+  - Tutaonana baadaye
 
 goodbye:
   - Bye
   - Goodbye
   - See you later
-  - See you soon
-  - Talk to you later
-  - Talk to you soon
-  - Talk to you
-  - See you
-  - Have a nice day
-  - Have a nice evening
-  - Have a nice night
-  - Have a nice morning
+  - Take care
 
-thanks:
-  - Thanks
-  - Thank you
-  - Thank you so much
+sw_about:
+  - udicti
+  - udicithub
+  - udicti ni nini?
+  - nambie kuhusu udicti?
+
+about:
+  - what is udicti?
+  - udicti
+  - udictihub?
+  - what is it?
+
+join:
+  - join
+  - how to join?
+  - can I join?
+  - joining
+  - do I need to pay
+  - do I pay to join?
+
+sw_join:
+  - nataka nijiunge
+  - nawezaje kujiunga?
+  - kujiunga
+  - najiungaje?
+  - ni bure
+  - kujiunga natoa ela?
+
+sw_startup_academy:
+  - Ni vipi ninaweza kujiunga na Startup Academy?
+  - Nini kinachofundishwa katika Startup Academy?
+  - Ni nini malengo ya Startup Academy?
+  - Kwa nini ninapaswa kujiunga na Startup Academy?
+
+sw_programs:
+  - Ni programu zipi zinazopatikana kwenye UDICTI?
+  - Ni kwa nini nifanye mpango wa CDE?
+  - Je, kuna programu yoyote ya uvumbuzi ya kijamii inayopatikana kwenye UDICTI?
+
+programs:
+  - What kind of programs does UDICTI offer?
+  - Can you tell me more about UDICTI's programs?
+  - What is the Startup Academy?
+  - What are the challenge-based programs?
+
+collaboration:
+  - Does UDICTI collaborate with industry partners?
+  - How does UDICTI collaborate with industry partners?
+  - Is UDICTI open to collaboration with international partners?
+
+sw_training:
+  - Je, UDICTI inatoa mafunzo ya kiufundi kwa lugha gani?
+  - Ni nini kinafundishwa katika mafunzo ya kiufundi ya UDICTI?
+  - Je, kuna mafunzo ya ujasiriamali inayotolewa na UDICTI?
+
+sw_startup_ideas:
+  - Je, UDICTI inasaidia wazo la biashara?
+  - Ni nini kinachohitajika ili kuwasilisha wazo la biashara kwa UDICTI?
+  - Je, ninaweza kupata msaada wa kifedha kupitia UDICTI kwa wazo langu la biashara?
+
+sw_impact:
+  - Ni jinsi gani UDICTI inachangia katika maendeleo ya jamii?
+  - Je, UDICTI inafanya kazi na mashirika ya kijamii?
+  - Je, UDICTI ina mradi wowote wa ushirikiano wa kimataifa?
+
+impact:
+  - How does UDICTI measure the impact of its programs?
+  - What metrics does UDICTI use to measure the impact of its programs?
+
+sw_events:
+  - Ni tukio gani linalofanyika katika UDICTI hivi karibuni?
+  - Ni lini tarehe ya tukio la karibuni la UDICTI?
+  - Je, ni jinsi gani ninaweza kuhudhuria tukio la UDICTI?
+
+sw_facilities:
+  - Ni vitu gani vinavyopatikana katika nafasi ya uvumbuzi ya UDICTI?
+  - Je, nafasi ya uvumbuzi ya UDICTI ni ya wazi kwa wanafunzi wote?
+  - Je, ninahitaji kujiandikisha ili kutumia nafasi ya uvumbuzi ya UDICTI?
+
+sw_mentoring:
+  - Je, UDICTI inatoa ushauri nasaha kwa wajasiriamali?
+  - Je, nani anayepaswa kuomba ushauri nasaha kutoka UDICTI?
+  - Ni jinsi gani ninaweza kupata ushauri nasaha kutoka UDICTI?
+
+sw_jobs:
+  - Je, UDICTI ina ajira za muda kwa wanafunzi?
+  - Ni nini mahitaji ya kuomba kazi kwenye UDICTI?
+  - Je, UDICTI inatoa ajira za muda kwa wataalamu wa IT?
+
+sw_partnerships:
+  - Je, UDICTI ina washirika wa sekta binafsi?
+  - Ni nini faida za kuwa mshirika wa UDICTI?
+  - Je, ninawezaje kuwa mshirika wa UDICTI?
+  - Je, ni nani anayeweza kuwa mshirika wa UDICTI kwenye mipango yake?
+  - Ni jinsi gani ninaweza kuwasilisha wazo langu la ubunifu kwa UDICTI?
+
+networking:
+  - What kind of networking opportunities does UDICTI offer?
+  - How can I meet other entrepreneurs through UDICTI?
+
+skills:
+  - What kind of technical skills can I learn at UDICTI?
+  - Does UDICTI offer workshops on emerging technologies?
+
+
+involvement:
+  - How can I get involved with UDICTI?
+  - Can non-UDSM students participate in UDICTI's programs?
+
+eligibility:
+  - Am I eligible to participate in UDICTI's programs?
+  - Are there any prerequisites to participate in UDICTI's programs?
+
+location:
+  - Where is UDICTI located?
+  - What is the address of UDICTI?
+  - How can I get to UDICTI?
+
+
+partners:
+  - Who are UDICTI's industry partners?
+  - Can you give me some examples of UDICTI's partnerships?
+
+
+funding:
+  - Does UDICTI provide funding for startups?
+  - How can I apply for funding from UDICTI?
+
+mentors:
+  - Does UDICTI offer mentorship programs?
+  - How can I find a mentor through UDICTI?

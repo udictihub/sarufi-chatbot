@@ -1,16 +1,133 @@
+sw_greetings:
+  message:
+    - Karibu UDICTI, 
+      <br \><br \>Mimi ni chatbot aliyetengenezwa kwa technologia ya sarufi.io. 
+      <br \><br \>Niulize kuhusu UDICTI. Unahitaji msaada wa aina gani leo?
+  next_state: end
+
 greetings:
   message:
-    - Hi, Welcome let's have a conversation.
+    - Hi, welcome to UDICTI. I am a chatbot created using sarufi.io, ask me anything about UDICTI. How can I assist you today?
+  next_state: end
+
+sw_goodbye:
+  message:
+    - Kwa kheri, karibu tena.
+    - Kwa kheri, wasalimie.
   next_state: end
 
 goodbye:
   message:
-   - Bye!
-   - See you soon
+    - Bye! We hope to see you again soon.
+    - Bye! Happy innovating.
   next_state: end
 
-thanks:
+about:
   message:
-   - You are welcome.
+    - UDICTI is an umbrella innovation unit located in the College of Information and Communication Technologies (CoICT) at the University of Dar es Salaam. It provides a platform for addressing social and corporate challenges by creating social solutions and commercial ventures. Programs include innovation space, hands-on training, mentorship, coaching, networking opportunities, and technical skills development. UDICTI is committed to promoting an innovation-driven culture that supports the development of sustainable solutions for social and economic growth.
   next_state: end
 
+sw_about:
+  message:
+    - UDICTI ni kitengo mwamvuli cha ubunifu kilichopo katika Chuo cha Teknolojia ya Habari na Mawasiliano (CoICT) katika Chuo Kikuu cha Dar es Salaam. Inatoa jukwaa la kushughulikia changamoto za kijamii na ushirika kwa kuunda suluhisho za kijamii na ubia wa kibiashara. Mipango ni pamoja na nafasi ya uvumbuzi, mafunzo ya vitendo, ushauri, kufundisha, fursa za mitandao, na ukuzaji wa ujuzi wa kiufundi. UDICTI imejitolea kukuza utamaduni unaoendeshwa na uvumbuzi ambao unasaidia maendeleo ya masuluhisho endelevu kwa ukuaji wa kijamii na kiuchumi.
+  next_state: end
+
+join:
+  message:
+    - Anyone can join us, only if is a student at the university of Daressalaam
+      <br />No prior fees not in the future will be required in order to join us.
+      <br /><br />If you meet the requirements, visit the link below and submit the form after
+      information.
+      <br /><br />https://udicti.udsm.ac.tz/#idea-submission
+  next_state: end
+
+sw_join:
+  message:
+    - Mtu yeyote anaweza kujiunga nasi, akiwa tu ni mwanafunzi wa chuo kikuu cha Daressalaam.
+      <br />Ili kujiunga, hauhitaji kutoa malipo ya aina yeyote, sasa au baadae.
+      <br /><br />Kama unakidhi vigezo vya kujiunga nasi, tembelea linki iliyopo hapo chini.
+      <br /><br />https://udicti.udsm.ac.tz/#idea-submission
+  next_state: end
+
+sw_training:
+  message:
+    - Tunatoa mafunzo ya uvumbuzi kwa wanafunzi wetu kwenye teknolojia mbalimbali, kama vile programu na maendeleo ya programu ya rununu. Hakuna uzoefu wowote unahitajika, tuko hapa kukusaidia kujifunza.
+    - Mafunzo yetu ya uvumbuzi ni pamoja na kutoa nafasi ya kufanya kazi kwa mikono, mafunzo juu ya uvumbuzi na ujasiriamali, mafunzo juu ya ufundi wa kiufundi, na mentorship. Jisajili kwa maelezo zaidi.
+  next_state: end
+
+programs:
+  message:
+    - UDICTI offers various programs to promote innovation and entrepreneurship among students, ranging from creating social change to supporting startups and businesses in the ICT sector. The UDICTI Hub consists of multiple programs that are tailored to meet the needs of our stakeholders.
+  next_state: end
+
+collaboration:
+  message:
+    - Yes, UDICTI collaborates with industry partners to address industrial challenges for social and corporate good. The mode of ownership for solutions that emerge from these programs is determined by a memorandum of understanding (MoU) governing the process.
+  next_state: end
+
+impact:
+  message:
+    - UDICTI measures the impact of its programs using various metrics such as the number of startups created, jobs created, and revenue generated. We also conduct regular evaluations to ensure that our programs are meeting the needs of our stakeholders.
+  next_state: end
+
+
+sw_startups:
+  message:
+    # swahili
+    - Ndiyo, UDICTI inasaidia kuanzisha biashara za kiteknolojia. Tunatoa msaada wa mafunzo, msaada wa biashara, na ushirikiano wa kufanya kazi pamoja na washirika wa sekta binafsi. Wasilisha wazo lako na tutakusaidia kufanikisha ndoto yako ya biashara ya kiteknolojia.
+    - Kuanzisha biashara ya kiteknolojia sio rahisi, lakini tunaweza kukusaidia kufanikiwa. Tunatoa mafunzo, ushauri, na fursa ya kushirikiana na washirika wa sekta binafsi. Wasiliana nasi ili kujifunza zaidi.
+  next_state: end
+
+sw_networking:
+  message:
+    # swahili
+    - Tunatoa fursa mbalimbali za mtandao kwa wajasiriamali, kama vile mikutano, hafla, na programu za kuongeza uhusiano. Pia tunatoa jukwaa la mtandao la kubadilishana mawazo na kushirikiana. Jisajili ili upate maelezo zaidi.
+    - Fursa za mtandao ni muhimu sana kwa wajasiriamali. Tunatoa nafasi za kukutana na wajasiriamali wenzako, kujifunza kutoka kwa washirika wa sekta binafsi, na kujenga mtandao wako. Wasiliana nasi ili kujifunza zaidi.
+  next_state: end
+
+networking:
+  message:
+    - UDICTI offers various networking opportunities such as meetups, hackathons, and conferences. These events bring together entrepreneurs, industry leaders, and other stakeholders to share ideas and collaborate on projects.
+  next_state: end
+
+
+sw_resources:
+  message:
+    # swahili
+    - Tunatoa rasilimali mbalimbali za kiufundi, kama vile vifaa vya kiteknolojia na programu za kukuza biashara. Tuna nafasi ya uvumbuzi inayopatikana kwa wanafunzi wetu, na tunashirikiana na washirika wa sekta binafsi kutoa msaada wa kifedha kwa wajasiriamali. Jisajili ili upate maelezo zaidi.
+    - Rasilimali ni muhimu sana kwa wajasiriamali
+
+skills:
+  message:
+    - UDICTI offers training on a range of technical skills such as programming and mobile app development. We also offer workshops on emerging technologies such as blockchain, artificial intelligence, and data science.
+  next_state: end
+
+involvement:
+  message:
+    - To get involved with UDICTI, you can participate in our programs, attend our events, or volunteer as a mentor or coach. Non-UDSM students are also welcome to participate in our programs.
+  next_state: end
+
+eligibility:
+  message:
+    - The eligibility requirements for UDICTI's programs vary depending on the program. However, most programs are open to UDSM students with innovative business ideas. Please check our website for more information on specific programs.
+  next_state: end
+
+location:
+  message:
+    - UDICTI is located in the College of Information and Communication Technologies (CoICT) at the University of Dar es Salaam, Tanzania. The address is: P.O. Box 35062, Dar es Salaam.
+  next_state: end
+
+partners:
+  message:
+    - UDICTI has partnerships with various industry leaders and organizations, both local and international. Some of our partners include Google, Microsoft, and the Tanzania Private Sector Foundation. These partnerships help us to stay up-to-date with the latest trends and technologies, and to collaborate on projects that have a positive impact on society.
+  next_state: end
+
+funding:
+  message:
+    - UDICTI provides funding and mentorship support for startups through our Startup Academy program. To apply for funding, you need to have a viable business idea and a strong team. Please check our website for more information on how to apply.
+  next_state: end
+
+mentors:
+  message:
+    - Yes, UDICTI offers mentorship programs for aspiring entrepreneurs. Our mentors are industry experts who provide guidance and support to help startups grow and succeed. To find a mentor through UDICTI, please check our website for more information on our mentorship program.
+  next_state: end
