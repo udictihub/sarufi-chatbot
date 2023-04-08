@@ -24,12 +24,16 @@ goodbye:
 
 about:
   message:
-    - UDICTI is an umbrella innovation unit located in the College of Information and Communication Technologies (CoICT) at the University of Dar es Salaam. It provides a platform for addressing social and corporate challenges by creating social solutions and commercial ventures. Programs include innovation space, hands-on training, mentorship, coaching, networking opportunities, and technical skills development. UDICTI is committed to promoting an innovation-driven culture that supports the development of sustainable solutions for social and economic growth.
+    - UDICTI is an umbrella innovation unit located in the College of Information and Communication Technologies (CoICT) at the University of Dar es Salaam. 
+      <br /><br />It provides a platform for addressing social and corporate challenges by creating social solutions and commercial ventures. 
+      <br /><br />Programs include innovation space, hands-on training, mentorship, coaching, networking opportunities, and technical skills development. UDICTI is committed to promoting an innovation-driven culture that supports the development of sustainable solutions for social and economic growth.
   next_state: end
 
 sw_about:
   message:
-    - UDICTI ni kitengo mwamvuli cha ubunifu kilichopo katika Chuo cha Teknolojia ya Habari na Mawasiliano (CoICT) katika Chuo Kikuu cha Dar es Salaam. Inatoa jukwaa la kushughulikia changamoto za kijamii na ushirika kwa kuunda suluhisho za kijamii na ubia wa kibiashara. Mipango ni pamoja na nafasi ya uvumbuzi, mafunzo ya vitendo, ushauri, kufundisha, fursa za mitandao, na ukuzaji wa ujuzi wa kiufundi. UDICTI imejitolea kukuza utamaduni unaoendeshwa na uvumbuzi ambao unasaidia maendeleo ya masuluhisho endelevu kwa ukuaji wa kijamii na kiuchumi.
+    - UDICTI ni kitengo mwamvuli cha ubunifu kilichopo katika Chuo cha Teknolojia ya Habari na Mawasiliano (CoICT) katika Chuo Kikuu cha Dar es Salaam. 
+      <br /><br />Inatoa jukwaa la kushughulikia changamoto za kijamii na ushirika kwa kuunda suluhisho za kijamii na ubia wa kibiashara. 
+      <br /><br />Mipango ni pamoja na nafasi ya uvumbuzi, mafunzo ya vitendo, ushauri, kufundisha, fursa za mitandao, na ukuzaji wa ujuzi wa kiufundi. UDICTI imejitolea kukuza utamaduni unaoendeshwa na uvumbuzi ambao unasaidia maendeleo ya masuluhisho endelevu kwa ukuaji wa kijamii na kiuchumi.
   next_state: end
 
 join:
