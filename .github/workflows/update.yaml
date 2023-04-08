@@ -19,9 +19,9 @@ jobs:
       - name: environment variables
         run: |
           cat << EOF > .env
-          CLIENT_ID: "${{ secrets.CLIENT_ID }}"
-          CLIENT_SECRET: "${{ secrets.CLIENT_SECRET }}"
-          BOT_ID: "${{ secrets.BOT_ID }}"
+          CLIENT_ID="${{ secrets.CLIENT_ID }}"
+          CLIENT_SECRET="${{ secrets.CLIENT_SECRET }}"
+          BOT_ID="${{ secrets.BOT_ID }}"
           EOF
 
       - uses: actions/setup-python@v4
@@ -30,4 +30,3 @@ jobs:
       - run: |
           pip install -r requirements.txt
           python create-bot.py
-          
