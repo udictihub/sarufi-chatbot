@@ -16,17 +16,18 @@ More info on this method visit [sarufi docs](https://docs.sarufi.io/docs/Getting
 
 # HOW TO CONTRIBUTE
 
-fork the repository.
+Start by forking the repository.
 
-A litle to understand before moving on is that, this bot is designed to speak english and swahili separately.
+A little to understand before moving on is that, this bot is designed to speak english and swahili separately.
 Therefore, intents are divide into two; swahili intents and english intents.
-Intents have a naming convetion which is:
+Intents have a naming convention which is:
 
 - Append `sw_` to an intent name to mean its swahili version.
 
 Add your contributions to the data directory, in the flows.yaml / intents.yaml. Then make a pull request.
+After your pull request is closed, the updates you made will be published to the bot directly using github actions.
 
-Fix some typos add some mid=ssing flows and intents. Lets make it better. 
+Fix some typos add some missing flows and intents. Let us make it better. 
 
 Happy codding!!!
 

@@ -1,0 +1,27 @@
+name: "update"
+
+on:
+  push:
+    - "master"
+  pull_request:
+    - "master"
+
+jobs:
+
+  update_bot:
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Adding Ansible Variables
+        run: |
+          cat << EOF > .env
+          ---
+          CLIENT_ID: "${{ secrets.CLIENT_ID }}"
+          CLIENT_SECRET: "${{ secrets.CLIENT_SECRET }}"
+          BOT_ID: "${{ secrets.BOT_ID }}"
+          EOF
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 'pypy3.9'
+      - run: python create-bot.py
