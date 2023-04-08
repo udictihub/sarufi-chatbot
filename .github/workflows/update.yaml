@@ -2,13 +2,17 @@ name: "update"
 
 on:
   push:
-    - "master"
+    branches:
+      - "master"
   pull_request:
-    - "master"
+    branches:
+      - "master"
 
 jobs:
 
   update_bot:
+    name: Update sarufi bot
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
