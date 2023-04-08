@@ -2,6 +2,8 @@ name: "update"
 
 on:
   push:
+    paths:
+      - '**.yaml'
     branches:
       - "master"
   pull_request:
