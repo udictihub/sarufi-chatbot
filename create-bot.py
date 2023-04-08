@@ -4,7 +4,7 @@ from decouple import config
 
 def create():
     if not (config("CLIENT_ID", None) or config("CLIENT_SECRET", None)):
-        raise Exception("Did you forget to add [SARUFI_EMAIL,SARUFI_PASS] as environment variables. Create a .env "
+        raise Exception("Did you forget to add [CLIENT_ID, CLIENT_SECRET] as environment variables. Create a .env "
                         "file instead.")
 
     sarufi = Sarufi(config("CLIENT_ID"), config("CLIENT_SECRET"))
