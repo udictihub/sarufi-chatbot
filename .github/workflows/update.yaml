@@ -5,7 +5,10 @@ on:
     branches:
       - "master"
   pull_request:
-    types: [ closed ]
+    types:
+      - closed
+    paths:
+      - '**.yaml'
     branches:
       - "master"
 
